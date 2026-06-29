@@ -62,28 +62,20 @@ The following modules are covered:
 
 ### Positive Test Cases
 
-| Test Case ID | Description |
-|-------------|-------------|
-| TC-01 | Successful login with valid credentials |
-| TC-02 | Valid hotel search with correct filters |
-| TC-03 | Successful hotel selection and booking |
-| TC-04 | Booking confirmation displayed successfully |
-| TC-05 | Successful logout after booking |
-
----
+- TC01: Successful login with valid credentials
+- TC02: Valid hotel search with correct filters
+- TC03: Hotel selection after successful search
+- TC04: Booking form validation and button availability
+- TC05: Successful logout after login
 
 ### Negative Test Cases
 
-| Test Case ID | Description |
-|-------------|-------------|
-| TC-06 | Login with invalid username and password |
-| TC-07 | Search hotel without mandatory fields |
-| TC-08 | Booking with missing personal details |
-| TC-09 | Invalid credit card information during payment |
-| TC-10 | Logout attempt without logging in |
-
----
-
+- TC06: Invalid username and password
+- TC07: Hotel search without selecting location
+- TC08: Booking without CVV details
+- TC09: Booking without mandatory customer information
+- TC10: Logout page access without authentication
+- 
 ## Assertions Implemented
 
 The automation scripts include assertions for:
