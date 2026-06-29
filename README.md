@@ -58,37 +58,6 @@ The following modules are covered:
 
 ---
 
-## Automated Test Cases
-
-### Positive Test Cases
-
-- TC01: Successful login with valid credentials
-- TC02: Valid hotel search with correct filters
-- TC03: Hotel selection after successful search
-- TC04: Booking form validation and button availability
-- TC05: Successful logout after login
-
-### Negative Test Cases
-
-- TC06: Invalid username and password
-- TC07: Hotel search without selecting location
-- TC08: Booking without CVV details
-- TC09: Booking without mandatory customer information
-- TC10: Logout page access without authentication
-- 
-## Assertions Implemented
-
-The automation scripts include assertions for:
-
-- Page title validation
-- Error message verification
-- Successful page navigation
-- Button state validation
-- Booking ID generation
-- Logout confirmation
-
----
-
 ## Features Tested
 
 ### Login Module
